@@ -26,7 +26,7 @@ if ($remarks==null and $remarks=="") {
 echo ' <div id="reg-head" class="headrg">Register Here</div> ';
 }
 if ($remarks=='success') {
-echo ' <div id="reg-head" class="headrg">Registration Success</div> ';
+echo ' <div id="reg-head" class="headrg">Registration is Successful</div> ';
 }
 if ($remarks=='failed') {
 echo ' <div id="reg-head-fail" class="headrg">Registration has Failed!, Username exists</div> ';
